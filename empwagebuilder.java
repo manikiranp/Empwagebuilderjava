@@ -1,4 +1,3 @@
-
 import java.util.Random;
 public class empwagebuilder {
 	public static final int full_time=2;
@@ -15,16 +14,16 @@ public static void main(String[] args) {
 	totalworkdays++;
 	switch (empcheck) {
 		case full_time:
-		emphrs=8;
-		System.out.println("Employee is present fulltime:");
-		break;
+			emphrs=8;
+			System.out.println("Employee is present fulltime:");
+			break;
 		case part_time:
-		emphrs=4;
-		System.out.println("Employee is present part-time:");
-		break;
+			emphrs=4;
+			System.out.println("Employee is present part-time:");
+			break;
 		default:
-		emphrs=0;
-		System.out.println("Employee is Absent:");
+			emphrs=0;
+			System.out.println("Employee is Absent:");
 			 }
 	totalemphrs += emphrs;
 	empwage = emphrs*emp_rate_per_hr;
